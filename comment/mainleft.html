@@ -1,0 +1,18 @@
+<span class="menuTitle">站点导航</span>
+<ul class="menu">
+    <li><a href="index.html" target="">&gt; 首页</a></li>
+    <li><a href="Profile.html" target="">&gt; 公司简介</a></li>
+    <li><a href="catalogue.html" target="">&gt; 产品中心</a></li>
+    <li><a href="Service.html" target="">&gt; 我们的服务</a></li>
+    <li><a href="Contact.html" target="" class="cur">&gt; 联系我们</a></li>
+</ul>
+<script>
+    $(document).ready(function(){
+        $('.menu li a').each(function(){
+            if($($(this))[0].href==String(window.location)){
+                $('.menu li a').removeClass("cur");
+                $(this).addClass('cur');
+            }
+        });
+    });
+</script>

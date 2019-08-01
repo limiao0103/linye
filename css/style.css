@@ -1,0 +1,263 @@
+﻿/* CSS Document */
+/* CSS Document */
+@font-face {
+    font-family: "neusaregular";
+	src: url('../fonts/neusa-regular-webfont.eot');
+    src: url("../fonts/neusa-regular-webfont.eot") format("embedded-opentype"), url("../fonts/neusa-regular-webfont.woff2") format("woff2"), url("../fonts/neusa-regular-webfont.woff") format("woff"), url("../fonts/neusa-regular-webfont.ttf") format("truetype"), url("../fonts/neusa-regular-webfont.svg#neusaregular") format("svg");
+	font-style: normal;
+    font-weight: normal;
+	
+}
+@font-face {
+    font-family: "neusabold";
+	src: url('../fonts/neusa-bold-webfont.eot');
+    src: url("../fonts/neusa-bold-webfont.eot") format("embedded-opentype"), url("../fonts/neusa-bold-webfont.woff2") format("woff2"), url("../fonts/neusa-bold-webfont.woff") format("woff"), url("../fonts/neusa-bold-webfont.ttf") format("truetype"), url("../fonts/neusa-bold-webfont.svg#neusabold") format("svg");
+	font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+font-family: 'icomoon';
+  src: url('../fonts/icomoon.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+
+}
+@font-face {
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url("../fonts/robotocondensed-regular.ttf") format('truetype');
+}
+.clear{ clear:both;}table{ border-collapse:collapse;}
+a{ text-decoration:none; color:#000;} a:hover{ color:#FD3926;}
+ul,form,fieldset{ margin:0; padding:0; border:0;}
+img{ border:none;}
+li{ list-style:none;}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+body{
+	margin:0;
+	padding:0;
+    font-family:'Roboto Condensed', Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#333;
+}
+h2{font-size:18px; text-transform: uppercase;letter-spacing: 1px;}
+.inner{ width:1200px; margin:0 auto;overflow: hidden;}
+.header{ background:#F1F1F1; height:100px; border-bottom:4px solid #000; color:#000; }
+.hleft{ float:left; width:250px;}.hright{ float:right;}.header .hright .navzsz li{ float:left; padding:0 20px; line-height:50px;}
+.header .hright .navzsz li a{ color:#000; font-size:18px; text-transform: uppercase;letter-spacing: 1px;}
+.yypic img{ margin-right:10px; vertical-align:middle;}
+/*************下拉子菜单*****************/
+.navs ul li .new {
+    padding-bottom: 30px;
+}
+.navs ul .new {
+    border-top: 3px solid #a30303;
+    border-bottom: 0px solid #1499EF;
+    margin-left: -12px;
+}
+.navs ul {
+    padding-left: 0px;
+	margin:0;
+}
+.new {
+    width: 200px;
+    position: absolute;
+    z-index: 1000;
+    background:#fec524;
+    -webkit-transform: rotateY(360deg);
+}
+.header .hright .navzsz li .new li {
+    width: 200px;
+    margin-left: 0px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    line-height: 40px;
+    line-height: 30px;
+    text-align: left;
+}
+.header .hright .navzsz li .new li a {
+    color: #000;
+    float: left;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+}
+/*************下拉子菜单*****************/
+.main{ margin:30px 0;}
+.main1l{ width:60%; float:left;}.main1r{ float:right; width:35%;}.textc{ border-right:1px solid #ccc; padding-right:35px; line-height:25px;}.main1r ul li{ margin-bottom:20px; border-bottom:1px dotted #ccc; padding-bottom:5px;}.daten{ color:#FD3926; float:right;}
+.titlen{ float:left; width:80%;}.main1r ul li a{ color:#333;}
+.main2{margin:30px 0 50px 0}
+.main2 ul li{ float:left; width:220px; height:200px; margin:35px 34px;}.main2 ul li img{ max-width:220px;}
+.main2 ul li a.pica{ display:table; text-align:center; height:200px;}
+.main2 ul li a span{ display:table-cell; vertical-align:middle;}.main2 ul li p{ text-align:center; width:220px;}
+.footer{ background:#2d2d2d; height:180px; color:#fff; color:#fec524; padding:50px 0 10px 0;}.footer a{color:#fec524;}
+/*社交代码**************************/
+a.icon-facebook:hover {
+    background-position: -40px 100%;
+}
+a.icon-facebook:hover {
+    background-color: #3b5998 !important;
+}
+a.social-icon,#scroll {
+    display: inline-block !important;
+    width: 36px;
+    height: 34px;
+    margin: 0 1px 0 0 !important;
+    padding: 0 !important;
+    background: #fec524 url('../images/connect_icons.png') 0 0 no-repeat;
+	    background-size: 1196px 68px;
+		webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+	
+}
+a:hover, a:active {
+    outline: 0;
+}
+a.icon-facebook {
+    background-position: -40px 0;
+}
+a.icon-twitter {
+    background-position: -80px 0;
+}
+a.icon-gplus {
+    background-position: -200px 0;
+}
+a.icon-linkedin {
+    background-position: -360px 0;
+}
+a.icon-twitter:hover {
+    background-position: -80px 100%;
+}
+
+a.icon-twitter:hover {
+    background-color: #00c3f4 !important;
+}
+a.icon-gplus:hover {
+    background-position: -200px 100%;
+}
+a.icon-gplus:hover {
+    background-color: #4b8df7 !important;
+}
+a.icon-linkedin:hover {
+    background-position: -360px 100%;
+}
+a.icon-linkedin:hover {
+    background-color: #4b8df7 !important;
+}
+/*社交代码**************************/
+#bigimage1{ position:absolute; display:none; z-index:999;}
+#bigimage1 img {padding:5px; background:#fff; border:1px solid #e3e3e3; width:120px; height:120px;}
+.smallimage1 img{ max-width:37px; margin-bottom:1px;}.fleft{ float:left;}.fright{ float:right;}
+.searchform{ background:#fec524; height:100px; line-height:100px; color:#000;}
+.sleft{ float:left; width:400px;}.sright{ float:right; margin-top:30px; width:300px;}
+.searchform .ser{ width:200px; border:1px solid #fff; height:30px;}
+.searchform .serbtn{ background:#333; border:1px solid #333; border-radius:4px; width:60px; height:35px; margin-left:5px; line-height:32px; color:#fff;}
+.fright p{ margin:10px 0 0 0;}
+.fleft p{ margin:5px 0;}
+.infos {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+.mainnav {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.mainleft{ float:left; width:200px;}
+.mainright{ float:right; width:930px;}
+.menuTitle {
+    background-color: #343434;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 4px;
+    padding: 6px 0 6px 16px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.mainleft ul.menu {
+    background:#000000;
+    list-style: none outside none;
+    overflow: hidden;
+    position: relative;
+    top: -4px;
+    width: 200px;
+    padding: 10px 0;
+}
+.mainleft ul.menu li{ margin:10px 0; color:#fff;}.mainleft ul.menu li a.cur{ color:#fec524;}
+.mainleft ul.menu a{ color:#fff; padding-left:16px; text-transform:uppercase;}
+.newslist li {
+    line-height: 30px;
+    margin: 10px 0;
+    border-bottom: dotted 1px #ccc;
+}
+.newslist .newsl {
+    float: left;
+    width: 750px;
+}
+.newslist .newsr {
+    float: right;
+    color: #FF6600;
+}
+.newstitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+.ndate {
+    float: right;
+}
+.proleft2 {
+    width: 314px;
+    float: left;
+}
+/************分页样式******************/
+.pagerBox {
+
+    font-size: 12px;
+    height: 55px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagelist {padding:10px 0; text-align:center;}
+.pagelist span,.pagelist a{ border-radius:3px; border:1px solid #dfdfdf;display:inline-block; padding:5px 12px;}
+.pagelist a{ margin:0 3px;}
+.pagelist span.current{ background:#09F; color:#FFF; border-color:#09F; margin:0 2px;}
+.pagelist a:hover{background:#09F; color:#FFF; border-color:#09F; }
+.pagelist label{ padding-left:15px; color:#999;}
+.pagelist label b{color:red; font-weight:normal; margin:0 3px;}
+.australianform{ font-weight:bold;}
+.form input{ border-radius:4px; border:1px solid #ccc; color:#555;}
+.form input[type='text']{width:435px; height:35px; padding-left:20px; margin-bottom:15px;}
+#contents{ border-radius:4px; border:1px solid #ccc; color:#555;padding-left:20px;}
+.form input[type='submit'],.form input[type='reset']{ background:#fec524; height:30px; border-radius:4px; color:#555;}
+.hright .ser {
+    width: 200px;
+    border: 1px solid #fff;
+    height: 30px;
+}
+.hright .serbtn {
+    background: #333;
+    border: 1px solid #333;
+    border-radius: 4px;
+    width: 60px;
+    height: 35px;
+    margin-left: 5px;
+    line-height: 32px;
+    color: #fff;
+}
+.sright {
+    float: right;
+    margin-top: 10px;
+    width: 300px;
+    margin-bottom: 5px;
+}
